@@ -6,7 +6,7 @@ for (let a = 1; a < 11; a++) {
     console.log('----');
     //if (a = 11) {
         for (let m = 1; m < 11; m++) {
-            console.log(a * m);
+            console.log(Math.pow(a, m));
           }
     //}
   }
